@@ -51,7 +51,7 @@ class BinaryTree:
         for i in range(index,self.lastUsedIndex+1):
             print(self.customList[1])
 
-newBT = BinaryTree(8)
+newBT = BinaryTree(7)
 print(newBT.insertNode("Food"))
 print(newBT.insertNode("Veg"))
 print(newBT.insertNode("NV"))
